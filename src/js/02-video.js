@@ -21,7 +21,6 @@ function newStart() {
   player
     .setCurrentTime(currentVideoTime)
     .then(function() {
-      return player.play();
     // seconds = the actual time that the player seeked to
     })
     .catch(function (error) {
